@@ -1,4 +1,4 @@
-import { images } from './index/';
+import { images } from './index';
 
 
 const featuresData = [
@@ -28,4 +28,28 @@ const featuresData = [
     },
 ]
 
-export default { featuresData };
+const BenefitsData = [
+    {
+        img: images.Cash,
+        number: '01',
+        header: 'Flexible Working Hours',
+        discrp: 
+        'You can decide when, and how much time you want to drive'
+    },
+    {
+        img: images.Worker,
+        number: '02',
+        header: 'Earnings',
+        discrip: 
+        'By driving with tere you can earn more.'
+    },
+    {
+        img: images.workertime,
+        number: '03',
+        header: 'Customer Support 24/7',
+        discrip: 
+        'Tere is a local servoce provide and we are proud to support you in your local language. we are proud to be at your service 24/7'
+    }
+]
+
+export default { featuresData, BenefitsData };
