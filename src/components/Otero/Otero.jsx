@@ -1,6 +1,6 @@
 import React from 'react'
 import './Otero.css';
-// import { featuresData } from '../../constants'
+import  { data, images} from  '../../constants/index';
 
 const Otero = () => {
   return (
