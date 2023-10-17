@@ -1,0 +1,34 @@
+:root {
+  --color--primary: #75bf7a;
+  --color--secondary: #000000;
+  --color--extra: #9e9da2;
+  --color--sin: #ffffffed;
+}
+.body {
+  width: 100%;
+  min-height: 100vh;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.col-main {
+  margin: 13% ;
+}
+.col-main span {
+  color: var(--color--primary);
+}
+.col-main h2 {
+  font-size: 2rem;
+}
+.col--center_txt {
+  margin: 18px 0;
+  padding-left: 20px;
+}
+.col--center_txt {
+  margin-left: 30%;
+  color: var(--color--extra);
+  font-size: 20px;
+  font-style: "Gilroy";
+}
