@@ -1,6 +1,6 @@
 import React from 'react'
 import './Otero.css';
-import { one, Two, Three, Four } from './index';
+import { feautres } from '../../constants/images';
 
 const Otero = () => {
   return (
@@ -35,7 +35,7 @@ const Otero = () => {
             </p>
         </div>
         <div className="txt-1">
-        <img src={one} alt="" />
+        <img src={Three} alt="" />
         <p className="txt-p">REQUEST A RIDE</p>
           <p className="txt-p__1">
               Have to reach office or going<span>for shopping ?</span> Just put
