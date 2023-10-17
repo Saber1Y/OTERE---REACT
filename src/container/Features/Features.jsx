@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Subcta = ({ img, title, description }) => {
+const Features = ({ img, title, description }) => {
   return (
     <div>
        <div className="txt-1">
@@ -16,4 +16,4 @@ const Subcta = ({ img, title, description }) => {
 
 
 
-export default Subcta
+export default Features

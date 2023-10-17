@@ -1,6 +1,7 @@
 import React from 'react'
 import './Otero.css';
 import  { data, images} from  '../../constants/index';
+import Features from '../../container/Features/Features';
 
 const Otero = () => {
   return (
@@ -13,8 +14,11 @@ const Otero = () => {
      </p>
      <div className="container-square__txt">
       <div className="txt-container">
-        
+        {data.featuresData.map((item, index) => (
+          <Features img={item.img} title={item.title} description={item.description} key={item.title + index} />
+        ))}
      </div>
+     <img src={images.Phone} alt="" className=''/>
      </div>
     </section>
   )

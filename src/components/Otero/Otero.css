@@ -14,7 +14,7 @@
 }
 
 .col-main {
-  margin: 13% ;
+  margin: 13%;
 }
 .col-main span {
   color: var(--color--primary);
@@ -31,4 +31,37 @@
   color: var(--color--extra);
   font-size: 20px;
   font-style: "Gilroy";
+}
+.container-square__txt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 70px;
+}
+
+.txt-container {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+}
+
+.txt-1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.txt-p {
+  font-size: 20px;
+  color: var(--color--secondary);
+  font-weight: bolder;
+  margin: 10px 0;
+}
+.txt-p__1 {
+  font-size: 13px;
+  line-height: 1.7;
+}
+.txt-1 img {
+  margin-bottom: -5px;
 }
