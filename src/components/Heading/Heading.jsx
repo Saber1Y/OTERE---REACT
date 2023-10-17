@@ -1,11 +1,13 @@
 import React from 'react'
 import './heading.css';
-import { playstore } from '../../assets/playstore.png'
-import { A } from '../../assets/A.png'
+import  playstore  from '../../assets/playstore.png'
+import  A  from '../../assets/A.png'
+import  Car  from '../../assets/Car.png'
 
 
 const Heading = () => {
   return (
+  
     <section className='hero-container'>
       <div className="hero-main">
         <h1 className="hero--main__txt">
@@ -18,7 +20,7 @@ const Heading = () => {
           sustain its beauty. So what are you waiting for
           Let's ride together
           </p>
-          <div>
+          <div className='btn-container'>
             <button type="button" className='btn-box'>
               <img src={playstore} alt="playstore logo"/><span>DOWNLOAD</span>
             </button>
@@ -26,6 +28,9 @@ const Heading = () => {
               <img src={A} alt="A"/><span>DOWNLOAD</span>
             </button>
           </div>
+      </div>
+      <div className="hero-img">
+        <img src={Car} alt="" />
       </div>
     </section>
   )

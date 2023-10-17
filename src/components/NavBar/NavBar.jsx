@@ -1,6 +1,6 @@
 import React from 'react'
 import './navbar.css';
-import { Otere } from '../../assets/Otere.png';
+import  Otere  from '../../assets/Otere.png';
 
 
 const NavBar = () => {
