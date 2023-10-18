@@ -33,7 +33,7 @@ const BenefitsData = [
         img: images.Cash,
         number: '01',
         header: 'Flexible Working Hours',
-        discrp: 
+        discrip: 
         'You can decide when, and how much time you want to drive'
     },
     {
