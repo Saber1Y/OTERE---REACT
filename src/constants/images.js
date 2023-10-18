@@ -6,6 +6,7 @@ import Phone from '../assets/Phone.png'
 import Cash from '../assets/Cash.png'
 import Worker from '../assets/Worker.png'
 import workertime from '../assets/workertime .png'
+import logo from '../assets/logo.png'
 
 
 export default {
@@ -16,5 +17,6 @@ export default {
     Phone,
     Cash,
     Worker,
-    workertime
+    workertime,
+    logo
 };
