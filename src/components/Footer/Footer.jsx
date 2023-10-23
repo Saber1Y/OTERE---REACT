@@ -6,7 +6,7 @@ const Footer = () => {
   return (
    <footer className='footer-end_row'>
     <div className="footer-content">
-            <img src={images.logo} alt="" />
+          <img src={images.logo} alt="" />
         <div className="spaced--txt">
           <h3>Be Our Friend</h3>
           <p>3, Season Park, jakarta</p>
